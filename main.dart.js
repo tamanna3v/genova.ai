@@ -68075,7 +68075,7 @@ var $async$uw=A.O(function(a1,a2){if(a1===1){p=a2
 s=q}while(true)switch(s){case 0:c=A.h4("https://texttospeech.googleapis.com/v1/text:synthesize?key=AIzaSyBaMgP9J7xybs5TvEpe0x3N1iIWPVAQ9a0")
 A.hf("text: "+a)
 f=t.N
-o=A.an(["audioConfig",A.an(["audioEncoding","MP3","pitch",0,"speakingRate",1],f,t.K),"input",A.an(["text",a],f,f),"voice",A.an(["languageCode","bn-IN","name","bn-IN-Wavenet-C"],f,f)],f,t.z)
+o=A.an(["audioConfig",A.an(["audioEncoding","MP3","pitch",0,"speakingRate",1.2],f,t.K),"input",A.an(["text",a],f,f),"voice",A.an(["languageCode","bn-IN","name","bn-IN-Wavenet-C"],f,f)],f,t.z)
 q=3
 f=A.an(["Content-Type","application/json"],f,f)
 s=6
@@ -68178,7 +68178,7 @@ break
 case 2:s=4
 return A.S(o.v_(),$async$nK)
 case 4:case 3:n=A.h4(u.B)
-i=A.a([A.an(["role","system","content","As an English tutor,you should give one quiz per chat.strict to the context"],f,f)],t.SN)
+i=A.a([A.an(["role","system","content","As an English tutor,you should evaluate the level first then give quiz as per English level.strict to the context"],f,f)],t.SN)
 B.b.N(i,o.a)
 m=A.an(["model","gpt-3.5-turbo","messages",i,"max_tokens",100,"stream",!0],f,t.z)
 q=6
