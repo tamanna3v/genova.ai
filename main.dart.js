@@ -68178,7 +68178,7 @@ break
 case 2:s=4
 return A.S(o.v_(),$async$nK)
 case 4:case 3:n=A.h4(u.B)
-i=A.a([A.an(["role","system","content","As an English tutor,you should give one question per chat. question can be true/false, fill in the blanks, and any kind of lesson type. Keep replies short and also ask another questions.strict to the context"],f,f)],t.SN)
+i=A.a([A.an(["role","system","content","As an English tutor,you should give one quiz per chat.strict to the context"],f,f)],t.SN)
 B.b.N(i,o.a)
 m=A.an(["model","gpt-3.5-turbo","messages",i,"max_tokens",100,"stream",!0],f,t.z)
 q=6
