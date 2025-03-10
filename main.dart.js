@@ -68075,7 +68075,7 @@ var $async$uw=A.O(function(a1,a2){if(a1===1){p=a2
 s=q}while(true)switch(s){case 0:c=A.h4("https://texttospeech.googleapis.com/v1/text:synthesize?key=AIzaSyBaMgP9J7xybs5TvEpe0x3N1iIWPVAQ9a0")
 A.hf("text: "+a)
 f=t.N
-o=A.an(["audioConfig",A.an(["audioEncoding","MP3","pitch",0,"speakingRate",1],f,t.K),"input",A.an(["text",a],f,f),"voice",A.an(["languageCode",a0,"name","en-US-Chirp-HD-O"],f,f)],f,t.z)
+o=A.an(["audioConfig",A.an(["audioEncoding","MP3","pitch",0,"speakingRate",1],f,t.K),"input",A.an(["text",a],f,f),"voice",A.an(["languageCode","bn-IN","name","bn-IN-Wavenet-C"],f,f)],f,t.z)
 q=3
 f=A.an(["Content-Type","application/json"],f,f)
 s=6
