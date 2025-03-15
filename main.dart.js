@@ -68190,7 +68190,7 @@ return A.S(o.uZ(),$async$nK)
 case 4:case 3:f=t.N
 o.a.push(A.an(["role","user","content",e],f,f))
 n=A.h4(u.B)
-i=A.a([A.an(["role","system","content","As an English tutor,teach english only. Be interactive, kind and helpful.strict to the context max 50 words"],f,f)],t.SN)
+i=A.a([A.an(["role","system","content","You are a helpful AI assistant. Be interactive with max 50 words."],f,f)],t.SN)
 B.b.N(i,o.a)
 m=A.an(["model","gpt-3.5-turbo","messages",i,"max_tokens",100,"stream",!0],f,t.z)
 q=6
